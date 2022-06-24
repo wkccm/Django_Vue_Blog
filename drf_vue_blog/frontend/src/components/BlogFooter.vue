@@ -2,7 +2,7 @@
     <div>
         <br><br><br>
         <div id="footer">
-            <p id="domain">reinpack.tech</p>
+            <p id="domain"><a href="https://beian.miit.gov.cn" target="_blank">吉ICP备2022003698号-1</a></p>
             <img id="gotoTop" src="https://i02piccdn.sogoucdn.com/4f3b2858eec9e2cf" alt="" @click="gotoTop()"
                 v-if="showgotoTop">
             <img id="gotoBottom" src="https://i02piccdn.sogoucdn.com/4f3b2858eec9e2cf" alt="" @click="gotoBottom()"

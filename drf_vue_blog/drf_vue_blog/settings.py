@@ -16,11 +16,11 @@ from datetime import timedelta
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR, "frontend/dist/"),
-]
+# STATICFILES_DIRS=[
+#     os.path.join(BASE_DIR, "frontend/dist/"),
+# ]
 
-STATIC_ROOT=os.path.join(BASE_DIR, 'collected_static')
+# STATIC_ROOT=os.path.join(BASE_DIR, 'collected_static')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -29,7 +29,7 @@ STATIC_ROOT=os.path.join(BASE_DIR, 'collected_static')
 SECRET_KEY = 'django-insecure-48a&^fcmckspdbv3n5_@*^&q7%lwl+79*!j8-g6$k*-d#k36ep'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
